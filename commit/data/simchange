@@ -1,0 +1,292 @@
+473a3c330798d09e3fa686d155b6704699fa0441 function-fail-name-modify function-warning-name-modify function-fail-name-modify 
+46fe1ea51206dd8cb50d1b5252d9d9cc97e4042e hostclass-type-inherit-modify 
+f5a693b82628983b80a33c0dfc25d633c41001c8 hostclass-type-argument-add 
+7de2316e15117572c097d1d77a498f9ddb04be26 hostclass-type-argument-add 
+62ef6564d740649eb4ffb28147e3cc06deb99791 relation-order-->-add 
+1719424b23370727407c3a80e96cb354f0f8e429 hostclass-type-argument-modify hostclass-type-argument-add hostclass-type-argument-add 
+46fe1ea51206dd8cb50d1b5252d9d9cc97e4042e hostclass-type-inherit-modify 
+4d6962e868425935a59a512bffa03c5077e6dbf9 type-resource-function-modify 
+0783c748b7350919f3cbe9ff26b436bac7e2d8cc resource-database-notify-modify 
+fa7f0ebf17228b594553cc9215e4ba4bebbc3c1a type-resource-function-modify resource-database_user-type-modify 
+0e6644f3a4ddf0787e3941646c728b301e6d4489 type---modify selector-value-::lsbdistcodename-add 
+bc7ef70a9269caf73c4db5d050f9edfaba6c384e selector-value-::operatingsystem-modify 
+5a7e34b0aca2f81b71e58cbd43e4f6903677485d ifstatement-if-test-modify 
+67ea1c4dd3aaa4bcbd25e5259b4e57f557b4b88e ifstatement-if-test-modify 
+681d4f856fd1ccda1a6152fdb6622f110827431b type-casestatement-vardef-modify casestatement-case-test-modify casestatement-option-::operatingsystem-add type-vardef-casestatement-modify casestatement-option-OpenBSD-delete casestatement-option-Debian-delete casestatement-option-Solaris-delete casestatement-option-Archlinux-delete casestatement-option-Gentoo-delete casestatement-option-Suse-delete casestatement-option-RedHat-delete casestatement-option-FreeBSD-delete 
+3a6a6c63580a71058aef74176d461547a3f0a660 ifstatement-if-test-modify 
+511688311102ed0a681aab0bc06850fdaf76619b casestatement-option-::osfamily-add casestatement-option-::osfamily-add casestatement-option-::osfamily-add casestatement-option-::osfamily-add casestatement-option-::osfamily-add casestatement-option-::osfamily-add casestatement-option-::osfamily-add type-vardef-casestatement-modify casestatement-case-test-modify casestatement-option-::osfamily-add casestatement-option-::osfamily-add casestatement-option-::osfamily-add casestatement-option-::osfamily-add casestatement-option-::osfamily-add casestatement-option-::osfamily-add casestatement-option-::osfamily-add type-casestatement-vardef-modify casestatement-option-Ubuntu-delete 
+b20f04330cebfb45b626f9d7ef7b6ad6280ea65a ifstatement-if-test-modify ifstatement-if-test-modify ifstatement-if-test-modify ifstatement-if-test-modify 
+9f9061ea8fe80b4817c166b3e7a344e9dac40482 selector-value-::lsbdistcodename-add 
+e23da832307ef2074e4c3e19c431db0bb82de58f ifstatement-if-test-modify 
+e0e797e480949ffef73f92861f77fa4a9066e623 casestatement-option-SLES-delete 
+8cc0083d6e58b21328504d8de9c02a497dd93a11 casestatement-option-::operatingsystem-add 
+d2d40a8dc8694603642aed4556447cf930fe7987 casestatement-option-::operatingsystem-add casestatement-option-/^(RedHat|CentOS|Scientific)$/-delete 
+cf2ffc68214307dfec5c823ac08cc77d5ec4b541 function-fail-param-modify 
+7b3cdd234a0498a8b64258ebf3399bf6f3899afb casestatement-option-::operatingsystem-add casestatement-option-RedHat-delete casestatement-option-Archlinux-delete 
+6151590caff266a429e14e1b065617aade88e8b2 type---modify 
+dabb29dd6e02928efcaefb080f1163694a58155b vardef-var-name-modify vardef-var-name-modify 
+9d0f9010c6fbfd8d30f92ea2b7a9cc5d0dcfb7d3 ifstatement-if-test-modify 
+070daf86b4022a5009f247683c91e29202d52c49 ifstatement-if-test-modify 
+2e82660446aec2e2762a3b06c864fe07cc2f3c76 type---modify 
+48af8a727dcd4e03d786f7469bb727d1eace2441 ifstatement-if-test-modify 
+3ca7d958dff8115262090ad0e62ef828bad90db5 type-ifstatement-vardef-modify vardef-var-name-modify 
+02c4da48a577d78937da0c67403f30be41d5d54b casestatement-option-Suse-delete casestatement-option-Suse-delete casestatement-option-Suse-delete casestatement-option-Suse-delete 
+02695533c8ec5a9381220d181fa2ffff0e459816 type-casestatement-function-modify 
+1da8ae7a280a69937af3783daa2abd0d59de6a2f type-casestatement-function-modify casestatement-option-::osfamily-add 
+ba4df4dead1caa9b69e0c48a1ba072159c1b23e5 vardef-var-name-modify 
+e472d3b48d548deae2a02162a9061067cb91f8cc function-fail-param-modify 
+09af083e3c232ee5e05147ef9492365d956bb6a3 casestatement-option-::operatingsystem-add 
+92660497a2fa610cd6867329f2f038d6a35cb011 casestatement-case-test-modify 
+9570b0342fb0710b8c346294312f42fa9af0436d relation-order-->-add 
+8b366fe7df52abf8ed90eea5aafcc3f1c2d70810 function-include-param-modify function-include-param-modify relation-order-->-modify 
+ced1a08c34168f6b3f8e1ada1f75223ce7f27f07 hostclass-type-argument-add 
+e4b4afd0003b5a44d5e9671416a9714d2eb1e7da hostclass-type-argument-modify 
+511688311102ed0a681aab0bc06850fdaf76619b hostclass-type-argument-add hostclass-type-argument-delete 
+a26b80d750030481d3f13f629b07b8bcd9698958 hostclass-type-argument-add hostclass-type-argument-modify 
+5b692a8f62cae32fdaafed360bdbc35cc9f62c4e hostclass-type-argument-modify 
+f5a693b82628983b80a33c0dfc25d633c41001c8 hostclass-type-argument-add 
+b9fbba3b0dfaae3d354d8e2cb21d08888298300a hostclass-type-argument-add hostclass-type-argument-add 
+7de2316e15117572c097d1d77a498f9ddb04be26 hostclass-type-argument-add hostclass-type-argument-delete hostclass-type-argument-delete 
+02564bfe081799d820acbe62209e18e1e0260a9a hostclass-type-argument-add hostclass-type-argument-add 
+26204437ef852951d4f998298867855b6eb1488d hostclass-type-argument-add 
+d66efd82a20e7cca81093d3a1e4dd20f264533f6 hostclass-type-argument-add hostclass-type-argument-add hostclass-type-argument-add relation-order-->-add 
+1b4a486bf92d6518cd15773f6290fd6eb7311ff0 function-mysql_deepmerge-name-modify 
+bba9589770c6b7a11aefc082d8ab5f7d614f30fe resource-exec-path-modify 
+c15ef0ad1bc374053107c0c2c467dc13ceae6bcc resource-exec-command-modify resource-exec-path-add 
+b7761efd5b25532c3753997c4dee4a97dd2328f1 resource-file-title-modify 
+e733df7388e1e3e9ba49a6a696b1c1bd452ba0b8 hostclass-type-argument-add 
+d8206aa4ecb598de361ebf462f2b3949a8ab7455 hostclass-type-inherit-add 
+a7a5c66bc431898e2931d7520a434394ef495276 hostclass-type-argument-add 
+ec14b87a814127d8dcb65bca6a35a60edb9736c2 hostclass-type-argument-add hostclass-type-argument-add 
+eb3fa4e9f511e608718fb43de5093f290d8ffe00 resource-mysql_user-provider-delete 
+a2faed23ac62cdd465e941dd7bfcdca4443afc71 hostclass-type-argument-modify resource-mysql_user-provider-add 
+1c3bf95e21e91e89fd64688e7df07ff8ea4a21e7 resource-mysql_user-provider-delete 
+51d66a53abf907f14aa9893f239af6fe5a722d6c function-mysql_deepmerge-param-modify 
+e733df7388e1e3e9ba49a6a696b1c1bd452ba0b8 hostclass-type-argument-add 
+cda93b8452ac1a6632992efe974b50b66c9522f6 type-function-resource-modify 
+0ad4f719347119c3b7fbf63a1ff48f5d8369300f resource-package-type-modify type-resource-ifstatement-modify resource-cron-require-modify 
+d8206aa4ecb598de361ebf462f2b3949a8ab7455 hostclass-type-inherit-add 
+a7a5c66bc431898e2931d7520a434394ef495276 hostclass-type-argument-add 
+9dad94a8c643d555433ae47e0699e9f89230b934 hostclass-type-argument-modify ifstatement-if-test-modify ifstatement-if-test-modify 
+8b1fa244793e964973e90cbf22297c4a8cf76b38 ifstatement-if-test-modify 
+ec14b87a814127d8dcb65bca6a35a60edb9736c2 hostclass-type-argument-add hostclass-type-argument-add resource-mysql_grant-privileges-modify resource-mysql_grant-privileges-modify 
+eb3fa4e9f511e608718fb43de5093f290d8ffe00 resource-mysql_user-provider-delete 
+a2faed23ac62cdd465e941dd7bfcdca4443afc71 hostclass-type-argument-modify resource-mysql_user-provider-add resource-file-group-modify 
+1c3bf95e21e91e89fd64688e7df07ff8ea4a21e7 resource-mysql_user-provider-delete 
+e733df7388e1e3e9ba49a6a696b1c1bd452ba0b8 hostclass-type-argument-add 
+d8206aa4ecb598de361ebf462f2b3949a8ab7455 hostclass-type-inherit-add 
+ec14b87a814127d8dcb65bca6a35a60edb9736c2 hostclass-type-argument-add hostclass-type-argument-add 
+eb3fa4e9f511e608718fb43de5093f290d8ffe00 resource-mysql_user-provider-delete 
+a2faed23ac62cdd465e941dd7bfcdca4443afc71 hostclass-type-argument-modify resource-mysql_user-provider-add 
+1c3bf95e21e91e89fd64688e7df07ff8ea4a21e7 resource-mysql_user-provider-delete 
+7de2316e15117572c097d1d77a498f9ddb04be26 resource-package-install_options-add 
+7de2316e15117572c097d1d77a498f9ddb04be26 resource-package-install_options-add 
+7de2316e15117572c097d1d77a498f9ddb04be26 resource-package-install_options-add 
+e3843ceb6f3ed0fc7237978108a0fee31894225a hostclass-type-inherit-modify 
+7de2316e15117572c097d1d77a498f9ddb04be26 resource-package-install_options-add 
+e3843ceb6f3ed0fc7237978108a0fee31894225a hostclass-type-inherit-modify 
+7de2316e15117572c097d1d77a498f9ddb04be26 resource-package-install_options-add 
+7de2316e15117572c097d1d77a498f9ddb04be26 resource-package-install_options-add 
+e3843ceb6f3ed0fc7237978108a0fee31894225a hostclass-type-inherit-modify 
+7de2316e15117572c097d1d77a498f9ddb04be26 resource-package-install_options-add 
+e3843ceb6f3ed0fc7237978108a0fee31894225a hostclass-type-inherit-modify 
+7de2316e15117572c097d1d77a498f9ddb04be26 resource-package-install_options-add 
+1719424b23370727407c3a80e96cb354f0f8e429 hostclass-type-argument-delete hostclass-type-argument-delete resource-package-ensure-modify resource-package-name-modify 
+46fe1ea51206dd8cb50d1b5252d9d9cc97e4042e hostclass-type-argument-modify hostclass-type-argument-modify 
+e3843ceb6f3ed0fc7237978108a0fee31894225a hostclass-type-argument-modify hostclass-type-argument-modify 
+bff5bdfc7ba7d3c29666177fd551b4e931deb913 ifstatement-if-test-modify 
+e4d5671e7f52472caf1bfd68561f57a94c8055c0 resource-mysql_user-require-modify resource-mysql_user-require-modify resource-mysql_user-require-modify resource-mysql_user-require-modify resource-mysql_database-require-modify 
+e3843ceb6f3ed0fc7237978108a0fee31894225a resource-mysql_user-require-modify resource-mysql_user-require-modify resource-mysql_database-require-modify 
+369c83126b4b68f5fd8b32d0278f89b35c0b63c6 resource-mysql_user-type-modify resource-mysql_user-type-modify resource-mysql_user-type-modify resource-mysql_user-type-modify resource-mysql_database-type-modify 
+e77576d8e711648610d8a65190f0ffa284a33136 resource-database_user-title-modify 
+0c07e42427696c34ce6bb5fe85f055b077866c7b resource-database_user-title-modify 
+e733df7388e1e3e9ba49a6a696b1c1bd452ba0b8 hostclass-type-argument-add 
+ff4ce8c5d44a401e2ae49cf0746039e07fd6328b function-warning-name-modify 
+a7a5c66bc431898e2931d7520a434394ef495276 hostclass-type-argument-add 
+d3901f205a0c5ed2d8381106bf1d5653ccd15d36 hostclass-type-argument-modify 
+ec14b87a814127d8dcb65bca6a35a60edb9736c2 hostclass-type-argument-add hostclass-type-argument-add 
+e08aa011f117a4f4c91a74ab76188a063bb56f90 resource-mysql_user-provider-delete 
+30249552d4180a1967276aeef70af139b06cc519 resource-mysql_grant-ensure-modify 
+b40865d7408ca2ee57a8e167a03b23d035cb229c resource-mysql_grant-privileges-modify 
+d2b24e40d3034026ccfa7f5af1eb9d418137665c hostclass-type-argument-add 
+63e0da0b712e0735ce6c62ee263ec485f1964292 hostclass-type-argument-add 
+10f346eacaf7d36ea412a979ad2ca6754c54bd69 hostclass-type-argument-add 
+765afe4f613d0c007e653d73268de374b07a76af resource-mysql_user-require-modify 
+c654fe1ba82b8c9582b1607b771cbf6313f0e361 hostclass-type-argument-add hostclass-type-argument-add hostclass-type-argument-add resource-file-mode-modify resource-file-owner-modify resource-file-group-modify 
+ba52d1d6e9b86f835ea002cac990050788fe2963 resource-file-selinux_ignore_defaults-add 
+c1191f123017848ff2842f2ad1ca45839d0394dc function-mysql_dirname-name-modify 
+96f4d164a4c771b33f8c2a8ddd2d2d782d4186d2 function-mysql_dirname-name-modify 
+1812fbca25343966ab6a45445bfb73eb8dd03178 resource-file-title-modify resource-file-path-add 
+b670071d9fe9eeca7db3e167a9f26fc871336e27 type-function--modify 
+7de2316e15117572c097d1d77a498f9ddb04be26 resource-package-install_options-add 
+3daceba34d0131774cfbe548170d7aad3cc74994 resource-file-mode-add 
+d472d5bcf1455a51035b1f6e5f047f28a5d22dda resource-mysql_datadir-log_error-add 
+61619f69fcce2056209a433f909acdd25c3d88e0 ifstatement-if-test-modify 
+ac6ae7140e60722badc494c2109d20cd2a73a5fb resource-exec-require-modify 
+4bab65edcb98f82f87a4414840fe90ab81b6cea3 resource-exec-require-modify 
+6a79d2683833e87c9a8d6b21655bb268bf425f99 hostclass-type-argument-add hostclass-type-argument-add hostclass-type-argument-add 
+5d17f10f93585e7637786c0337b3fcde5a3db9b9 resource-mysql_user-require-add resource-mysql_grant-title-modify resource-mysql_grant-privileges-modify 
+e4d5671e7f52472caf1bfd68561f57a94c8055c0 relation-order-->-modify 
+2abccab4d954436fe7239e7bf75809b05d528f8c resource-mysql_grant-type-modify 
+369c83126b4b68f5fd8b32d0278f89b35c0b63c6 resource-mysql_user-type-modify 
+723a3affa1fa68ef178673c06710f25c81aa95fa resource-database_grant-require-modify 
+64f367fbb47bffd4b34a27922b137d66d6f20c8f relation-order-->-modify 
+a1bd55423b77e80a0f37f6c75c04b00835f8519e resource-database_user-type-modify resource-database_grant-type-modify 
+d8206aa4ecb598de361ebf462f2b3949a8ab7455 resource-class-title-modify resource-class-title-modify 
+0614fba91156ee4da5ba28ef301765c4a11c2c88 hostclass-type-argument-add resource-file-ensure-modify 
+5f49c45b2eab1a655b1547397806dd024ee82b5e ifstatement-if-test-modify 
+02564bfe081799d820acbe62209e18e1e0260a9a type-ifstatement-vardef-modify ifstatement-if-test-modify resource-file-type-modify 
+52b8714081c6a492b6690ebbecdcc0c2e06ce22c resource-file-owner-add resource-file-user-delete 
+333be5fd76fe9098bd06d25052df4100fdc831d0 resource-file-user-add resource-file-mode-add 
+6924dea7bda1c68c06da9aadbefc6bd3f8d8dc7d resource-service-require-delete ifstatement-if-test-modify type--relation-modify 
+7ea4a748c2819552fe691e9d8f5c98911df83f4b ifstatement-if-test-modify 
+ac6ae7140e60722badc494c2109d20cd2a73a5fb resource-service-require-modify 
+29788fb4c492865b5246daef6cbefe99c4aa067d resource-service-require-modify 
+4bab65edcb98f82f87a4414840fe90ab81b6cea3 resource-service-require-modify 
+511688311102ed0a681aab0bc06850fdaf76619b resource-file-group-modify 
+ce43899af36a6d76cbb8be24d3f68ae93f954eeb type-vardef-ifstatement-modify type-ifstatement-resource-modify resource-file-title-modify 
+a8fd4d375ba711625931ea0f08e6e2ec5a55ca51 resource-service-require-add 
+ec6b97ea5db1aa516b3f39d3655491fe9a1f4315 resource-file-ensure-add 
+c47d1fb5869734b8310fc1fed0bcec7e9e7b5b75 resource-file-type-modify 
+e4d5671e7f52472caf1bfd68561f57a94c8055c0 ifstatement-if-test-modify ifstatement-if-test-modify resource-service-enable-modify 
+995e1983f23e4e437d61371ff6b51e12c8ba6283 hostclass-type-argument-add resource-file-title-modify 
+8dbf982b627e0df16bc2ecc2635b5d86d0bf0f55 hostclass-type-argument-add 
+81b4778b9376fa0c7a1337e7eaed512f351cc492 hostclass-type-argument-add hostclass-type-argument-add hostclass-type-argument-delete 
+995e1983f23e4e437d61371ff6b51e12c8ba6283 hostclass-type-argument-add 
+83b4ac166132df3703155c79cbcdda0c3ea69180 hostclass-type-argument-add 
+ef1681f5e50ae7976484dd1daf6a18a92bcb9191 selector-value-::osfamily-add 
+46567450fafe1376d42b933c43e7f6973ef38df1 selector-value-::operatingsystemrelease-add 
+9bb1c5e491463fe64beff663be156d6724b4e06e selector-value-::operatingsystemrelease-modify selector-value-::operatingsystemrelease-delete 
+36bbd6ed2a9f769ee2a02766920637c43505a9b4 selector-value-::operatingsystemrelease-add 
+53048211d02b1e758eb7b9c89aedb132566eaa72 selector-value-::operatingsystemrelease-add 
+ba67952288db555409176e2299fa631c2214ca23 type-resource-ifstatement-modify 
+48e1eb6002c2897392095d9aa6d2585d44103402 hostclass-type-argument-delete hostclass-type-argument-delete 
+30973ff76677504bba02ed79ddf466b2a2b0c6f4 hostclass-type-argument-add hostclass-type-argument-add vardef-var-name-modify type-vardef-ifstatement-modify 
+532047919a65a12999cf33b5360532044e6de0cb hostclass-type-argument-delete hostclass-type-argument-delete 
+048d9c93c554253b0c5aa90618864d6c51dd5bd1 selector-value-globals_version-add 
+e2b0bdd26f0086c4f26720533f37fec87b066806 hostclass-type-argument-add hostclass-type-argument-add 
+58fe218e91947fb9a0eea44fcdb0f4cccc6c78c3 hostclass-type-argument-delete selector-value-::osfamily-delete resource-class-ensure-delete 
+9301e8223252c8d7005f75630d5daa7926e1473d selector-value-globals_version-add 
+53ce9110d7ef2ba04781a9855e489a17f34abed8 selector-value-::operatingsystemrelease-add 
+246725cfb98b2988514ce7a4a71f4f1f12255a2d selector-value-globals_version-modify 
+906794d3ce7ece0934046371259401adaa7d1c5a type-not--modify 
+ff59d421f9b9ac773f5daee430c8dde9b632d7ff type-ifstatement-resource-modify 
+375308a12db763433dd7db42d066fb37a8f34ef2 selector-value-::operatingsystemrelease-delete selector-value-::operatingsystemrelease-add 
+74039db1a168d68137550548c37c90a24aaa5b4a selector-value-globals_version-add 
+a29d038287559444b6a80eab22b05b2d55901a12 hostclass-type-argument-add 
+0b7bb333d80d600bcf72bed9c9ffb9f304b1966b hostclass-type-argument-add hostclass-type-argument-delete 
+9e60640bd9d4753965042f7a9b914819b3e6ce07 hostclass-type-argument-add 
+2b81d5cb634367176d749540706779bcf72d5f89 hostclass-type-argument-add selector-value-::osfamily-delete 
+3476828518de2dd86fb380ad9d6e7d95f6c70cfc hostclass-type-argument-add 
+c1b67d3c0fa1595ba72ea8e5f84766fd5fbc8c08 hostclass-type-argument-delete selector-value-::operatingsystemrelease-add selector-value-::operatingsystemrelease-add selector-value-::operatingsystemrelease-delete 
+cdf5b077feebde145a68e21598675cfd45b07f31 hostclass-type-argument-add selector-value-::operatingsystemrelease-add selector-value-::operatingsystemrelease-delete 
+9d1543bd445303c1c2b9d25188f28cfd2883796c selector-value-::operatingsystemrelease-add selector-value-::operatingsystemrelease-delete 
+ff35c0e115adcca4e29c600262983cbd0bc8fc3b selector-value-::operatingsystemrelease-add 
+6f614b0b3735e1b2f9e701677f3fc6f85e852184 hostclass-type-argument-add selector-value-::operatingsystemrelease-delete selector-value-::operatingsystem-add 
+5e142cbebaaebd3ec36498e15461c8dc05fb4f86 selector-value-::operatingsystemrelease-add selector-value-::operatingsystem-delete 
+2718f14017cdf4104f32f9bf30e83eb52ca27359 selector-value-::operatingsystem-add 
+809003d0f9aaa451acb76151a0351f61fe3202e4 hostclass-type-argument-add 
+2876dacb94296a2049303a1047722d278761a636 resource-class-ensure-add 
+c8d3ecde144454190de593483927df124edb2912 hostclass-type-argument-add 
+a0a2a00a49bbc183466635b87b08f0fd6fd07492 vardef-var-name-modify function-pick-param-modify vardef-var-name-modify function-pick-param-modify function-pick-param-modify 
+3504405cf0b0be280d12434b83df648b7aab815b type-vardef-ifstatement-modify 
+6cb9071bfd8c9aa43a9befca2e576d5aeb787c57 casestatement-option-::osfamily-add casestatement-option-RedHat-delete 
+90ed7aaf6d42282001264f7f70ec051fd6c439c5 type-ifstatement-casestatement-modify 
+61f077bb2098f3aa7553a808bdc6128dd6b37489 casestatement-option-Ubuntu-delete 
+15071237e1ef838787c525f482f8db6a2599678d hostclass-type-inherit-delete 
+1eb45d07f163ab3e3fd117d9de4bc4351b228853 hostclass-type-argument-add 
+58fe218e91947fb9a0eea44fcdb0f4cccc6c78c3 hostclass-type-argument-delete 
+c8d3ecde144454190de593483927df124edb2912 hostclass-type-argument-modify 
+0d196cf92d21e0f00adcd388f17b209356995bb6 hostclass-type-argument-add 
+b2cb2dfff05d4dfcf6cf693288325fa8268b3148 hostclass-type-argument-add 
+740c0b3b4063c8d0585f55b0d060837533630860 hostclass-type-argument-add 
+ea9203dd1acf4bcb55b5ef215dd3a8d18606471a hostclass-type-argument-add 
+f9c0d91680123bbeeb8093d26dc9aff92dbcad6d hostclass-type-argument-add 
+81b4778b9376fa0c7a1337e7eaed512f351cc492 hostclass-type-argument-add hostclass-type-argument-add 
+83b4ac166132df3703155c79cbcdda0c3ea69180 hostclass-type-argument-add 
+ef1681f5e50ae7976484dd1daf6a18a92bcb9191 hostclass-type-argument-add 
+789543fc45b08b940b1ba4f855fd8feebb2a2d39 hostclass-type-argument-add 
+532047919a65a12999cf33b5360532044e6de0cb hostclass-type-argument-delete hostclass-type-argument-delete relation-order-->-delete 
+91fec924888e47ec6f67e712f3f6a8977ba4f8c8 hostclass-type-argument-modify 
+e2b0bdd26f0086c4f26720533f37fec87b066806 hostclass-type-argument-add hostclass-type-argument-add 
+8db4a0cf67d47af26741938fd4cad0cec45826f9 ifstatement-if-test-modify 
+5e334093427256ed4448253f2a7e50cc2da027a6 hostclass-type-argument-add 
+86f295024898f9f7c260eee5b654cdbcc4748a80 hostclass-type-argument-add 
+8d7bf05796ec529f565b95226b45e4fe45fd75e6 hostclass-type-argument-add 
+2b81d5cb634367176d749540706779bcf72d5f89 hostclass-type-argument-add hostclass-type-argument-delete 
+02c0184f5831e707323dac9c1165e1e8ede56032 hostclass-type-argument-add 
+cdf5b077feebde145a68e21598675cfd45b07f31 hostclass-type-argument-modify 
+6afb4a0367c699d3e1a83879b87d2e7ac4d26965 hostclass-type-argument-add 
+ab5c177b7665bbdce3ead22adc47e65fa4dbf819 resource-class-require-add 
+6f614b0b3735e1b2f9e701677f3fc6f85e852184 hostclass-type-argument-add 
+809003d0f9aaa451acb76151a0351f61fe3202e4 hostclass-type-argument-add hostclass-type-argument-add 
+c8d3ecde144454190de593483927df124edb2912 hostclass-type-argument-modify 
+7d84b6ac0e75ea228088b72ce6da68a45fdc2e6b hostclass-type-argument-add 
+b9db279c04e0f3437dfa70f53331857eef4a1344 resource-exec-group-delete resource-exec-user-delete 
+663c77930932a3271297471ade5b6a2f58ff7931 resource-exec-command-modify resource-exec-user-add resource-exec-group-add resource-exec-onlyif-add 
+d44de361b6da9cc5ba5248de5c16955bb16c23a3 resource-exec-path-add resource-exec-command-modify 
+82c5863431cfb76c88cb1d2fa50ec2a13148a012 hostclass-type-argument-add resource-service-status-add 
+0d196cf92d21e0f00adcd388f17b209356995bb6 resource-exec-cwd-modify 
+fc580e1f93887e08cc99d859bc02dd21c98e6f6f function-join-param-modify 
+9a29aea976fdb11aca29fe1746fcd7557052a02b function-include-name-modify resource-exec-require-modify 
+3896baeabb7ed2a1be19e705aa405560f5ea06f0 resource-exec-path-modify 
+a8e66e687275328bd250857fd916859b06797a5f function-require-param-modify 
+9aebc4fbfe8ba38a244b2e14b26dd0f3cfa2586d hostclass-type-argument-modify 
+8ad12ece492b96167eb4696d03a54503a70af460 ifstatement-if-test-modify 
+25b11a2e6b33f62b09095ecfc3280ac8da7ab8e2 resource-package-tag-add 
+0b7bb333d80d600bcf72bed9c9ffb9f304b1966b type-function-ifstatement-modify 
+1eb45d07f163ab3e3fd117d9de4bc4351b228853 resource-yumrepo-proxy-add 
+32ebbb5e34b9dbaf46f75b6b6ee9efb6ac6db7c6 function-split-param-modify resource-yumrepo-descr-modify resource-yumrepo-baseurl-modify 
+b2cb2dfff05d4dfcf6cf693288325fa8268b3148 type-ifstatement-resource-modify ifstatement-if-test-modify 
+f929cadd9cd83718894eaa7f9817c807f6f83848 resource-file-path-modify 
+9dc891d06da260853c20812959522fa293180f80 resource-file-path-modify 
+83b4ac166132df3703155c79cbcdda0c3ea69180 ifstatement-if-test-modify resource-postgresql::server::config_entry-type-modify 
+0c4f2a96470cf0ce211757422b2db9f96e9ada07 ifstatement-if-test-modify 
+4e002d7fd93e7bbbddcc1c81abf17dfee5f23ff4 ifstatement-if-test-modify 
+d010bc8c7fbf92c02d441d464064313746dc938c ifstatement-if-test-modify 
+d49939014c08f79f24ad807f60affc063e6fdb4c resource-concat-owner-modify 
+acabbbf53066a9b760def6136d8f2d7b8ac65738 type-resource-function-modify type-ifstatement-resource-modify 
+63ee3a55f18f6c8e2da2b7d35ecba38bebf0b2e7 casestatement-option-name-add casestatement-option-/data_directory|hba_file|ident_file|include|listen_addresses|port|max_connections|superuser_reserved_connections|unix_socket_directory|unix_socket_group|unix_socket_permissions|bonjour|bonjour_name|ssl|ssl_ciphers|shared_buffers|max_prepared_transactions|max_files_per_process|shared_preload_libraries|wal_level|wal_buffers|archive_mode|max_wal_senders|hot_standby|logging_collector|silent_mode|track_activity_query_size|autovacuum_max_workers|autovacuum_freeze_max_age|max_locks_per_transaction|max_pred_locks_per_transaction|restart_after_crash|lc_messages|lc_monetary|lc_numeric|lc_time/-delete 
+ea9203dd1acf4bcb55b5ef215dd3a8d18606471a type-ifstatement--modify 
+e2f50152070a5dae674d55f356bcb6822c011184 type--vardef-modify 
+0c4f2a96470cf0ce211757422b2db9f96e9ada07 ifstatement-if-test-modify 
+4334dc7bd96f9c652b74ff65694dc9c17fd3f2a5 type-relation-resource-modify 
+4e002d7fd93e7bbbddcc1c81abf17dfee5f23ff4 ifstatement-if-test-modify ifstatement-if-test-modify 
+b706edff9b78bc0a0e765a82de30511b75b1265e casestatement-option-name-add casestatement-option-/data_directory|hba_file|ident_file|include|listen_addresses|port|max_connections|superuser_reserved_connections|unix_socket_directory|unix_socket_group|unix_socket_permissions|bonjour|bonjour_name|ssl|ssl_ciphers|shared_buffers|max_prepared_transactions|max_files_per_process|shared_preload_libraries|wal_level|wal_buffers|archive_mode|max_wal_senders|hot_standby|logging_collector|silent_mode|track_activity_query_size|autovacuum_max_workers|autovacuum_freeze_max_age|max_locks_per_transaction|max_pred_locks_per_transaction|restart_after_crash/-delete 
+fad4c164abb2af902dc8262242a11effa6c78303 selector-value-encoding-modify 
+435d63297abad00910adb3acaa8660d15a01e563 hostclass-type-argument-add 
+f0924df7c803e6c667850fe22feaff23b0200109 hostclass-type-argument-add 
+a246e586be016c99d521a8796c24f8fe7ca5c4e2 resource-postgresql::server::role-before-add 
+435d63297abad00910adb3acaa8660d15a01e563 hostclass-type-argument-add resource-postgresql::server::database-comment-add resource-postgresql::server::database-comment-add 
+6e55b9bbb3feb7283e5d3dfab63d0fed548db29c type-relation-resource-modify 
+f0924df7c803e6c667850fe22feaff23b0200109 hostclass-type-argument-add resource-postgresql::server::database-template-add 
+b784676c2ed8c3392f7ecbd47f6d4cc789b3f91a hostclass-type-argument-add resource-postgresql::server::database-owner-add 
+9278954cfeeac8361327fb325f4c35973489cbcf resource-postgresql_psql-title-modify resource-postgresql_psql-command-add resource-postgresql_psql-title-modify resource-postgresql_psql-command-add relation-order-->-modify relation-order-->-modify 
+86f295024898f9f7c260eee5b654cdbcc4748a80 hostclass-type-argument-add resource-postgresql_psql-port-add 
+688b0aa3fc12491d2edc9778e908a210a7ce872b hostclass-type-argument-modify 
+4cd64e80ac7473ea1fb47cdfc68ef93a79666084 function-validate_string-param-modify 
+05eaaa1670527fc2f001f773620259dcda7a49ff resource-exec-require-add resource-exec-after-delete 
+99a1e03154e3c2bb873fbd47ff32fd5e23c259cb resource-exec-after-add resource-exec-before-delete 
+480fc64f6bc43ed428a17d73287f170d5bd3eab2 resource-file-mode-modify 
+27c5cc0304dc2b7b0bda351b92315f445bf21044 selector-value-package_ensure-add 
+0d196cf92d21e0f00adcd388f17b209356995bb6 resource-exec-cwd-modify 
+d71e3f754d92f3e3cc6bbe6db2a5ba131cd366fb resource-exec-environment-modify 
+863a4b80dee95828e8829593706ddb4ae06dfbd5 resource-exec-environment-modify 
+aee6dba6f85583560ee3fb817138f3b12f53b81c vardef-var-name-modify resource-exec-unless-modify 
+828c3b99d24b0fa695668e48eb3559d8b946ca1c vardef-var-name-modify resource-exec-command-modify resource-exec-unless-modify vardef-var-name-modify resource-exec-command-modify resource-exec-unless-modify 
+91fec924888e47ec6f67e712f3f6a8977ba4f8c8 selector-test-test-modify 
+0e1fa6f8b21039e55c78a1994ab2994c40eaa2c5 ifstatement-if-test-modify function-fail-param-modify 
+673838c3d8a231a46872991e6781aa200649525f resource-concat::fragment-owner-delete resource-concat::fragment-mode-delete 
+017d13418863a045fa71770a5bf052b5d9362984 function-join-param-modify function-validate_re-param-modify 
+99cd56c2e3d032455dfc409550373295ac88da2e resource-concat::fragment-content-modify 
+5488821ce64728156ffb2024ed6fc6f9b0af953c resource-exec-require-add 
+86f295024898f9f7c260eee5b654cdbcc4748a80 hostclass-type-argument-add 
+ad083d0e4da7edd2203b760388c8f62e73b4fc00 hostclass-type-argument-add 
+688b0aa3fc12491d2edc9778e908a210a7ce872b hostclass-type-argument-modify 
+6bf896fa3475a00d279277d2f3d23e8c209444cb selector-value-ensure-modify selector-value-ensure-modify 
+86f295024898f9f7c260eee5b654cdbcc4748a80 resource-postgresql::validate_db_connection-database_port-add 
+bac4b87a8dabc742dc99070982d5641a5cf2489a type-resource-vardef-modify 
+6afb4a0367c699d3e1a83879b87d2e7ac4d26965 resource-postgresql::validate_db_connection-database_name-add 
+ef45251a316509413c938c50c33d1b6f58d5bfe7 resource-postgresql::validate_db_connection-tries-modify 
+50ae9efbadc9e9b01616f8d758b85cbba2384e39 resource-file-require-add 
+86f295024898f9f7c260eee5b654cdbcc4748a80 hostclass-type-argument-add resource-postgresql::server::grant-port-add 

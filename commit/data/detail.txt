@@ -1,0 +1,292 @@
+473a3c330798d09e3fa686d155b6704699fa0441 function-fail-name-modify-fatal^fail function-warning-name-modify-warn^warning function-fail-name-modify-fatal^fail 
+46fe1ea51206dd8cb50d1b5252d9d9cc97e4042e hostclass-type-inherit-modify-mysql::globals^mysql::params 
+f5a693b82628983b80a33c0dfc25d633c41001c8 hostclass-type-argument-add-^$mysql::params::client_package_manage 
+7de2316e15117572c097d1d77a498f9ddb04be26 hostclass-type-argument-add-^undef 
+62ef6564d740649eb4ffb28147e3cc06deb99791 relation-order-->-add-Anchormysql::client::start->Classmysql::client::install->Anchormysql::client::end^Anchormysql::client::start->Classmysql::client->Classmysql::client::install->Anchormysql::client::end 
+1719424b23370727407c3a80e96cb354f0f8e429 hostclass-type-argument-modify-false^$mysql::params::bindings_enable hostclass-type-argument-add-^$mysql::params::client_package_ensure hostclass-type-argument-add-^$mysql::params::client_package_name 
+46fe1ea51206dd8cb50d1b5252d9d9cc97e4042e hostclass-type-inherit-modify-mysql::globals^mysql::params 
+4d6962e868425935a59a512bffa03c5077e6dbf9 type-resource-function-modify-ASTFunction^ASTResource 
+0783c748b7350919f3cbe9ff26b436bac7e2d8cc resource-database-notify-modify-Exec${name}-import-import^base 
+fa7f0ebf17228b594553cc9215e4ba4bebbc3c1a type-resource-function-modify-ASTFunction^ASTResource resource-database_user-type-modify-database^database_user 
+0e6644f3a4ddf0787e3941646c728b301e6d4489 type---modify-ASTString^ASTSelector selector-value-::lsbdistcodename-add-^ruby-mysql 
+bc7ef70a9269caf73c4db5d050f9edfaba6c384e selector-value-::operatingsystem-modify-/var/lib/mysql/mysql.sock^/run/mysql/mysql.sock 
+5a7e34b0aca2f81b71e58cbd43e4f6903677485d ifstatement-if-test-modify-::osfamily==RedHatand::operatingsystemmajrelease==4^::osfamily==RedHatand::operatingsystemmajrelease==4and::operatingsystem#=Amazon 
+67ea1c4dd3aaa4bcbd25e5259b4e57f557b4b88e ifstatement-if-test-modify-versioncmp::operatingsystemmajrelease13>=0^versioncmp::operatingsystemmajrelease12>=0 
+681d4f856fd1ccda1a6152fdb6622f110827431b type-casestatement-vardef-modify-ASTVarDef^ASTCaseStatement
+3a6a6c63580a71058aef74176d461547a3f0a660 ifstatement-if-test-modify-versioncmp::operatingsystemrelease13.1>=0^versioncmp::operatingsystemmajrelease13>=0 
+511688311102ed0a681aab0bc06850fdaf76619b casestatement-option-::osfamily-add-^OpenBSD casestatement-option-::osfamily-add-^OpenBSD casestatement-option-::osfamily-add-^OpenBSD casestatement-option-::osfamily-add-^OpenBSD casestatement-option-::osfamily-add-^OpenBSD casestatement-option-::osfamily-add-^OpenBSD casestatement-option-::osfamily-add-^OpenBSD type-vardef-casestatement-modify-ASTCaseStatement^ASTVarDef casestatement-case-test-modify-::operatingsystem^::osfamily casestatement-option-::osfamily-add-^RedHat casestatement-option-::osfamily-add-^Suse casestatement-option-::osfamily-add-^Debian casestatement-option-::osfamily-add-^Archlinux casestatement-option-::osfamily-add-^Gentoo casestatement-option-::osfamily-add-^FreeBSD casestatement-option-::osfamily-add-^OpenBSD type-casestatement-vardef-modify-ASTVarDef^ASTCaseStatement casestatement-option-Ubuntu-delete-::osfamily^ 
+b20f04330cebfb45b626f9d7ef7b6ad6280ea65a ifstatement-if-test-modify-is_integer::operatingsystemreleaseand::operatingsystemrelease>=19or::operatingsystemrelease==Rawhide^versioncmp::operatingsystemrelease19>=0or::operatingsystemrelease==Rawhide ifstatement-if-test-modify-::operatingsystemmajrelease>=7^versioncmp::operatingsystemmajrelease7>=0 ifstatement-if-test-modify-::operatingsystemrelease>=12^versioncmp::operatingsystemrelease12>=0 ifstatement-if-test-modify-::operatingsystemrelease>=12^versioncmp::operatingsystemrelease12>=0 
+9f9061ea8fe80b4817c166b3e7a344e9dac40482 selector-value-::lsbdistcodename-add-^ruby-mysql 
+e23da832307ef2074e4c3e19c431db0bb82de58f ifstatement-if-test-modify-::operatingsystemmajrelease>=12^::operatingsystemrelease>=12 
+e0e797e480949ffef73f92861f77fa4a9066e623 casestatement-option-SLES-delete-::operatingsystem^ 
+8cc0083d6e58b21328504d8de9c02a497dd93a11 casestatement-option-::operatingsystem-add-^SLES 
+d2d40a8dc8694603642aed4556447cf930fe7987 casestatement-option-::operatingsystem-add-^/^(RedHat|CentOS|Scientific|OracleLinux)$/ casestatement-option-/^(RedHat|CentOS|Scientific)$/-delete-::operatingsystem^ 
+cf2ffc68214307dfec5c823ac08cc77d5ec4b541 function-fail-param-modify-Unsupportedosfamily:${::osfamily}operatingsystem:${::operatingsystem},module${module_name}onlysupportosfamilyRedHat,Debian,andFreeBSD,oroperatingsystemAmazon^Unsupportedplatform:puppetlabs-${module_name}currentlydoesn'tsupport${::osfamily}or${::operatingsystem} 
+7b3cdd234a0498a8b64258ebf3399bf6f3899afb casestatement-option-::operatingsystem-add-^/^(RedHat|CentOS|Scientific)$/ casestatement-option-RedHat-delete-::operatingsystem^ casestatement-option-Archlinux-delete-::osfamily^ 
+6151590caff266a429e14e1b065617aade88e8b2 type---modify-ASTString^ASTSelector 
+dabb29dd6e02928efcaefb080f1163694a58155b vardef-var-name-modify-service_provider^server_service_provider vardef-var-name-modify-service_provider^server_service_provider 
+9d0f9010c6fbfd8d30f92ea2b7a9cc5d0dcfb7d3 ifstatement-if-test-modify-::operatingsystem==Fedoraand::operatingsystemrelease>=19^::operatingsystem==Fedoraandis_integer::operatingsystemreleaseand::operatingsystemrelease>=19or::operatingsystemrelease==Rawhide 
+070daf86b4022a5009f247683c91e29202d52c49 ifstatement-if-test-modify-::operatingsystem==Fedoraand::operatingsystemrelease>=19^::operatingsystem==Fedoraandis_integer::operatingsystemreleaseand::operatingsystemrelease>=19or::operatingsystemrelease==Rawhide 
+2e82660446aec2e2762a3b06c864fe07cc2f3c76 type---modify-ASTString^ASTSelector 
+48af8a727dcd4e03d786f7469bb727d1eace2441 ifstatement-if-test-modify-::operatingsystem==Fedoraand::operatinsystemrelease>=19^::operatingsystem==Fedoraand::operatingsystemrelease>=19 
+3ca7d958dff8115262090ad0e62ef828bad90db5 type-ifstatement-vardef-modify-ASTVarDef^ASTIfStatement vardef-var-name-modify-client_package_name^basedir 
+02c4da48a577d78937da0c67403f30be41d5d54b casestatement-option-Suse-delete-::osfamily^ casestatement-option-Suse-delete-::osfamily^ casestatement-option-Suse-delete-::osfamily^ casestatement-option-Suse-delete-::osfamily^ 
+02695533c8ec5a9381220d181fa2ffff0e459816 type-casestatement-function-modify-ASTFunction^ASTCaseStatement 
+1da8ae7a280a69937af3783daa2abd0d59de6a2f type-casestatement-function-modify-ASTFunction^ASTCaseStatement casestatement-option-::osfamily-add-^default 
+ba4df4dead1caa9b69e0c48a1ba072159c1b23e5 vardef-var-name-modify-python_package_name^java_package_name 
+e472d3b48d548deae2a02162a9061067cb91f8cc function-fail-param-modify-Unsupportedoperatingsystem:${::operatingsystem},module${module_name}onlysupportosfamilyRedHatandDebian^Unsupportedosfamily:${::osfamily}operatingsystem:${::operatingsystem},module${module_name}onlysupportosfamilyRedHatandDebian 
+09af083e3c232ee5e05147ef9492365d956bb6a3 casestatement-option-::operatingsystem-add-^default 
+92660497a2fa610cd6867329f2f038d6a35cb011 casestatement-case-test-modify-operatingsystem^::operatingsystem 
+9570b0342fb0710b8c346294312f42fa9af0436d relation-order-->-add-Anchormysql::server::start->Classmysql::server::config->Classmysql::server::install->Classmysql::server::installdb->Classmysql::server::service->Classmysql::server::root_password->Classmysql::server::providers->Anchormysql::server::end^Anchormysql::server::start->Classmysql::server::config->Classmysql::server::install->Classmysql::server::binarylog->Classmysql::server::installdb->Classmysql::server::service->Classmysql::server::root_password->Classmysql::server::providers->Anchormysql::server::end 
+8b366fe7df52abf8ed90eea5aafcc3f1c2d70810 function-include-param-modify-::mysql::server::install^::mysql::server::config function-include-param-modify-::mysql::server::config^::mysql::server::install relation-order-->-modify-Anchormysql::server::start->Classmysql::server::install->Classmysql::server::config->Classmysql::server::installdb->Classmysql::server::service->Classmysql::server::root_password->Classmysql::server::providers->Anchormysql::server::end^Anchormysql::server::start->Classmysql::server::config->Classmysql::server::install->Classmysql::server::installdb->Classmysql::server::service->Classmysql::server::root_password->Classmysql::server::providers->Anchormysql::server::end 
+ced1a08c34168f6b3f8e1ada1f75223ce7f27f07 hostclass-type-argument-add-^$mysql::params::install_secret_file 
+e4b4afd0003b5a44d5e9671416a9714d2eb1e7da hostclass-type-argument-modify-$mysql::params::old_root_password^undef 
+511688311102ed0a681aab0bc06850fdaf76619b hostclass-type-argument-add-^$mysql::params::mysql_group hostclass-type-argument-delete-install_secret_file^ 
+a26b80d750030481d3f13f629b07b8bcd9698958 hostclass-type-argument-add-^$mysql::params::install_secret_file hostclass-type-argument-modify-undef^$mysql::params::old_root_password 
+5b692a8f62cae32fdaafed360bdbc35cc9f62c4e hostclass-type-argument-modify-$mysql::params::old_root_password^undef 
+f5a693b82628983b80a33c0dfc25d633c41001c8 hostclass-type-argument-add-^$mysql::params::server_package_manage 
+b9fbba3b0dfaae3d354d8e2cb21d08888298300a hostclass-type-argument-add-^$mysql::params::create_root_user hostclass-type-argument-add-^$mysql::params::create_root_my_cnf 
+7de2316e15117572c097d1d77a498f9ddb04be26 hostclass-type-argument-add-^undef hostclass-type-argument-delete-create_root_my_cnf^ hostclass-type-argument-delete-create_root_user^ 
+02564bfe081799d820acbe62209e18e1e0260a9a hostclass-type-argument-add-^$mysql::params::create_root_user hostclass-type-argument-add-^$mysql::params::create_root_my_cnf 
+26204437ef852951d4f998298867855b6eb1488d hostclass-type-argument-add-^$mysql::params::includedir 
+d66efd82a20e7cca81093d3a1e4dd20f264533f6 hostclass-type-argument-add-^{} hostclass-type-argument-add-^{} hostclass-type-argument-add-^{} relation-order-->-add-Anchormysql::server::start->Classmysql::server::install->Classmysql::server::config->Classmysql::server::service->Classmysql::server::root_password->Anchormysql::server::end^Anchormysql::server::start->Classmysql::server::install->Classmysql::server::config->Classmysql::server::service->Classmysql::server::root_password->Classmysql::server::providers->Anchormysql::server::end 
+1b4a486bf92d6518cd15773f6290fd6eb7311ff0 function-mysql_deepmerge-name-modify-merge^mysql_deepmerge 
+bba9589770c6b7a11aefc082d8ab5f7d614f30fe resource-exec-path-modify-/sbin:/usr/sbin:/usr/local/sbin:/usr/local/bin:/bin:/usr/bin:^/sbin/:/usr/sbin/ 
+c15ef0ad1bc374053107c0c2c467dc13ceae6bcc resource-exec-command-modify-/usr/sbin/service${service_name}restart^service${service_name}restart resource-exec-path-add-^/sbin:/usr/sbin:/usr/local/sbin:/usr/local/bin:/bin:/usr/bin: 
+b7761efd5b25532c3753997c4dee4a97dd2328f1 resource-file-title-modify-/root/.my.cnf/etc/mycnf^/root/.my.cnf/etc/my.cnf 
+e733df7388e1e3e9ba49a6a696b1c1bd452ba0b8 hostclass-type-argument-add-^1M 
+d8206aa4ecb598de361ebf462f2b3949a8ab7455 hostclass-type-inherit-add-^mysql::params 
+a7a5c66bc431898e2931d7520a434394ef495276 hostclass-type-argument-add-^false 
+ec14b87a814127d8dcb65bca6a35a60edb9736c2 hostclass-type-argument-add-^true hostclass-type-argument-add-^false 
+eb3fa4e9f511e608718fb43de5093f290d8ffe00 resource-mysql_user-provider-delete-provider^ 
+a2faed23ac62cdd465e941dd7bfcdca4443afc71 hostclass-type-argument-modify-root^$mysql::params::root_group resource-mysql_user-provider-add-^mysql 
+1c3bf95e21e91e89fd64688e7df07ff8ea4a21e7 resource-mysql_user-provider-delete-provider^ 
+51d66a53abf907f14aa9893f239af6fe5a722d6c function-mysql_deepmerge-param-modify-default_optionsoverride_options^default_optionsmysql::server::override_options 
+e733df7388e1e3e9ba49a6a696b1c1bd452ba0b8 hostclass-type-argument-add-^1M 
+cda93b8452ac1a6632992efe974b50b66c9522f6 type-function-resource-modify-ASTResource^ASTFunction 
+0ad4f719347119c3b7fbf63a1ff48f5d8369300f resource-package-type-modify-mysql_user^package type-resource-ifstatement-modify-ASTIfStatement^ASTResource resource-cron-require-modify-Filemysqlbackup.sh^Filemysqlbackup.shPackagebzip2 
+d8206aa4ecb598de361ebf462f2b3949a8ab7455 hostclass-type-inherit-add-^mysql::params 
+a7a5c66bc431898e2931d7520a434394ef495276 hostclass-type-argument-add-^false 
+9dad94a8c643d555433ae47e0699e9f89230b934 hostclass-type-argument-modify-true^false ifstatement-if-test-modify-include_triggersandversioncmp::mysql_version5.1.5>0^include_triggers ifstatement-if-test-modify-include_triggersandversioncmp::mysql_version5.1.5>0^include_triggers 
+8b1fa244793e964973e90cbf22297c4a8cf76b38 ifstatement-if-test-modify-include_triggers^include_triggersandversioncmp::mysql_version5.1.5>0 
+ec14b87a814127d8dcb65bca6a35a60edb9736c2 hostclass-type-argument-add-^true hostclass-type-argument-add-^false resource-mysql_grant-privileges-modify-SELECTRELOADLOCKTABLESSHOWVIEWPROCESS^SELECTRELOADLOCKTABLESSHOWVIEWPROCESSTRIGGER resource-mysql_grant-privileges-modify-SELECTRELOADLOCKTABLESSHOWVIEWPROCESS^SELECTRELOADLOCKTABLESSHOWVIEWPROCESSTRIGGER 
+eb3fa4e9f511e608718fb43de5093f290d8ffe00 resource-mysql_user-provider-delete-provider^ 
+a2faed23ac62cdd465e941dd7bfcdca4443afc71 hostclass-type-argument-modify-root^$mysql::params::root_group resource-mysql_user-provider-add-^mysql resource-file-group-modify-root^mysql::params::root_group 
+1c3bf95e21e91e89fd64688e7df07ff8ea4a21e7 resource-mysql_user-provider-delete-provider^ 
+e733df7388e1e3e9ba49a6a696b1c1bd452ba0b8 hostclass-type-argument-add-^1M 
+d8206aa4ecb598de361ebf462f2b3949a8ab7455 hostclass-type-inherit-add-^mysql::params 
+ec14b87a814127d8dcb65bca6a35a60edb9736c2 hostclass-type-argument-add-^true hostclass-type-argument-add-^false 
+eb3fa4e9f511e608718fb43de5093f290d8ffe00 resource-mysql_user-provider-delete-provider^ 
+a2faed23ac62cdd465e941dd7bfcdca4443afc71 hostclass-type-argument-modify-root^$mysql::params::root_group resource-mysql_user-provider-add-^mysql 
+1c3bf95e21e91e89fd64688e7df07ff8ea4a21e7 resource-mysql_user-provider-delete-provider^ 
+7de2316e15117572c097d1d77a498f9ddb04be26 resource-package-install_options-add-^mysql::bindings::install_options 
+7de2316e15117572c097d1d77a498f9ddb04be26 resource-package-install_options-add-^mysql::bindings::install_options 
+7de2316e15117572c097d1d77a498f9ddb04be26 resource-package-install_options-add-^mysql::bindings::install_options 
+e3843ceb6f3ed0fc7237978108a0fee31894225a hostclass-type-inherit-modify-mysql^mysql::globals 
+7de2316e15117572c097d1d77a498f9ddb04be26 resource-package-install_options-add-^mysql::bindings::install_options 
+e3843ceb6f3ed0fc7237978108a0fee31894225a hostclass-type-inherit-modify-mysql^mysql::globals 
+7de2316e15117572c097d1d77a498f9ddb04be26 resource-package-install_options-add-^mysql::bindings::install_options 
+7de2316e15117572c097d1d77a498f9ddb04be26 resource-package-install_options-add-^mysql::bindings::install_options 
+e3843ceb6f3ed0fc7237978108a0fee31894225a hostclass-type-inherit-modify-mysql^mysql::globals 
+7de2316e15117572c097d1d77a498f9ddb04be26 resource-package-install_options-add-^mysql::bindings::install_options 
+e3843ceb6f3ed0fc7237978108a0fee31894225a hostclass-type-inherit-modify-mysql^mysql::globals 
+7de2316e15117572c097d1d77a498f9ddb04be26 resource-package-install_options-add-^mysql::client::install_options 
+1719424b23370727407c3a80e96cb354f0f8e429 hostclass-type-argument-delete-package_ensure^ hostclass-type-argument-delete-package_name^ resource-package-ensure-modify-package_ensure^mysql::client::package_ensure resource-package-name-modify-package_name^mysql::client::package_name 
+46fe1ea51206dd8cb50d1b5252d9d9cc97e4042e hostclass-type-argument-modify-$mysql::globals::client_package_name^$mysql::params::client_package_name hostclass-type-argument-modify-$mysql::globals::client_package_ensure^$mysql::params::client_package_ensure 
+e3843ceb6f3ed0fc7237978108a0fee31894225a hostclass-type-argument-modify-$mysql::client_package_name^$mysql::globals::client_package_name hostclass-type-argument-modify-$mysql::client_package_ensure^$mysql::globals::client_package_ensure 
+bff5bdfc7ba7d3c29666177fd551b4e931deb913 ifstatement-if-test-modify-::fqdn#=localhost^::fqdnand::fqdn#=localhost 
+e4d5671e7f52472caf1bfd68561f57a94c8055c0 resource-mysql_user-require-modify-Classmysql::server::config^Anchormysql::server::end resource-mysql_user-require-modify-Classmysql::server::config^Anchormysql::server::end resource-mysql_user-require-modify-Classmysql::server::config^Anchormysql::server::end resource-mysql_user-require-modify-Classmysql::server::config^Anchormysql::server::end resource-mysql_database-require-modify-Classmysql::server::config^Anchormysql::server::end 
+e3843ceb6f3ed0fc7237978108a0fee31894225a resource-mysql_user-require-modify-Classmysql::config^Classmysql::server::config resource-mysql_user-require-modify-Classmysql::config^Classmysql::server::config resource-mysql_database-require-modify-Classmysql::config^Classmysql::server::config 
+369c83126b4b68f5fd8b32d0278f89b35c0b63c6 resource-mysql_user-type-modify-database_user^mysql_user resource-mysql_user-type-modify-database_user^mysql_user resource-mysql_user-type-modify-database_user^mysql_user resource-mysql_user-type-modify-database_user^mysql_user resource-mysql_database-type-modify-database^mysql_database 
+e77576d8e711648610d8a65190f0ffa284a33136 resource-database_user-title-modify-root@${::fqdn}root@${::hostname}root@127.0.0.1@${::fqdn}@${::hostname}@localhost@%root@::1^root@${::fqdn}root@${::hostname}root@127.0.0.1root@::1@${::fqdn}@${::hostname}@localhost@% 
+0c07e42427696c34ce6bb5fe85f055b077866c7b resource-database_user-title-modify-root@${::fqdn}root@${::hostname}root@127.0.0.1@${::fqdn}@${::hostname}@localhost@%^root@${::fqdn}root@${::hostname}root@127.0.0.1@${::fqdn}@${::hostname}@localhost@%root@::1 
+e733df7388e1e3e9ba49a6a696b1c1bd452ba0b8 hostclass-type-argument-add-^1M 
+ff4ce8c5d44a401e2ae49cf0746039e07fd6328b function-warning-name-modify-warn^warning 
+a7a5c66bc431898e2931d7520a434394ef495276 hostclass-type-argument-add-^false 
+d3901f205a0c5ed2d8381106bf1d5653ccd15d36 hostclass-type-argument-modify-true^false 
+ec14b87a814127d8dcb65bca6a35a60edb9736c2 hostclass-type-argument-add-^false hostclass-type-argument-add-^true 
+e08aa011f117a4f4c91a74ab76188a063bb56f90 resource-mysql_user-provider-delete-provider^ 
+30249552d4180a1967276aeef70af139b06cc519 resource-mysql_grant-ensure-modify-present^ensure 
+b40865d7408ca2ee57a8e167a03b23d035cb229c resource-mysql_grant-privileges-modify-SELECTRELOADLOCKTABLESSHOWVIEW^SELECTRELOADLOCKTABLESSHOWVIEWPROCESS 
+d2b24e40d3034026ccfa7f5af1eb9d418137665c hostclass-type-argument-add-^/usr/bin:/usr/sbin:/bin:/sbin 
+63e0da0b712e0735ce6c62ee263ec485f1964292 hostclass-type-argument-add-^false 
+10f346eacaf7d36ea412a979ad2ca6754c54bd69 hostclass-type-argument-add-^true 
+765afe4f613d0c007e653d73268de374b07a76af resource-mysql_user-require-modify-Classmysql::server::config^Classmysql::server::root_password 
+c654fe1ba82b8c9582b1607b771cbf6313f0e361 hostclass-type-argument-add-^0700 hostclass-type-argument-add-^root hostclass-type-argument-add-^root resource-file-mode-modify-0700^backupdirmode resource-file-owner-modify-root^backupdirowner resource-file-group-modify-root^backupdirgroup 
+ba52d1d6e9b86f835ea002cac990050788fe2963 resource-file-selinux_ignore_defaults-add-^true 
+c1191f123017848ff2842f2ad1ca45839d0394dc function-mysql_dirname-name-modify-dirname^mysql_dirname 
+96f4d164a4c771b33f8c2a8ddd2d2d782d4186d2 function-mysql_dirname-name-modify-dirname^mysql_dirname 
+1812fbca25343966ab6a45445bfb73eb8dd03178 resource-file-title-modify-mysql::server::config_file^mysql-config-file resource-file-path-add-^mysql::server::config_file 
+b670071d9fe9eeca7db3e167a9f26fc871336e27 type-function--modify-ASTComparisonOperator^ASTFunction 
+7de2316e15117572c097d1d77a498f9ddb04be26 resource-package-install_options-add-^mysql::server::install_options 
+3daceba34d0131774cfbe548170d7aad3cc74994 resource-file-mode-add-^u+rw 
+d472d5bcf1455a51035b1f6e5f047f28a5d22dda resource-mysql_datadir-log_error-add-^log_error 
+61619f69fcce2056209a433f909acdd25c3d88e0 ifstatement-if-test-modify-mysql::server::manage_config_file^mysql::server::manage_config_fileandconfig_file#=mysql::params::config_file 
+ac6ae7140e60722badc494c2109d20cd2a73a5fb resource-exec-require-modify-Packagemysql::server::package_name^Packagemysql-server 
+4bab65edcb98f82f87a4414840fe90ab81b6cea3 resource-exec-require-modify-Packagemysql-server^Packagemysql::server::package_name 
+6a79d2683833e87c9a8d6b21655bb268bf425f99 hostclass-type-argument-add-^ hostclass-type-argument-add-^ hostclass-type-argument-add-^ 
+5d17f10f93585e7637786c0337b3fcde5a3db9b9 resource-mysql_user-require-add-^Classmysql::server::service resource-mysql_grant-title-modify-${mysql_monitor_username}@${mysql_monitor_hostname}^${mysql_monitor_username}@${mysql_monitor_hostname}/*.* resource-mysql_grant-privileges-modify-PROCESS_PRIVSUPER_PRIV^PROCESSSUPER 
+e4d5671e7f52472caf1bfd68561f57a94c8055c0 relation-order-->-modify-Classmysql::server->Classmysql::server::monitor^Anchormysql::server::end->Classmysql::server::monitor 
+2abccab4d954436fe7239e7bf75809b05d528f8c resource-mysql_grant-type-modify-database_grant^mysql_grant 
+369c83126b4b68f5fd8b32d0278f89b35c0b63c6 resource-mysql_user-type-modify-database_user^mysql_user 
+723a3affa1fa68ef178673c06710f25c81aa95fa resource-database_grant-require-modify-Mysql_user${mysql_monitor_username}@${mysql_monitor_hostname}^Database_user${mysql_monitor_username}@${mysql_monitor_hostname} 
+64f367fbb47bffd4b34a27922b137d66d6f20c8f relation-order-->-modify-Classmysql::server->Classmysql::monitor^Classmysql::server->Classmysql::server::monitor 
+a1bd55423b77e80a0f37f6c75c04b00835f8519e resource-database_user-type-modify-mysql_user^database_user resource-database_grant-type-modify-mysql_grant^database_grant 
+d8206aa4ecb598de361ebf462f2b3949a8ab7455 resource-class-title-modify-staging^::staging resource-class-title-modify-staging^::staging 
+0614fba91156ee4da5ba28ef301765c4a11c2c88 hostclass-type-argument-add-^present resource-file-ensure-modify-present^ensure 
+5f49c45b2eab1a655b1547397806dd024ee82b5e ifstatement-if-test-modify-versioncmp::puppetversion3.0<=0^versioncmp::puppetversion3.0>=0 
+02564bfe081799d820acbe62209e18e1e0260a9a type-ifstatement-vardef-modify-ASTVarDef^ASTIfStatement ifstatement-if-test-modify-mysql::server::root_password#=UNSET^mysql::server::create_root_my_cnf==trueandmysql::server::root_password#=UNSET resource-file-type-modify-mysql_user^file 
+52b8714081c6a492b6690ebbecdcc0c2e06ce22c resource-file-owner-add-^root resource-file-user-delete-user^ 
+333be5fd76fe9098bd06d25052df4100fdc831d0 resource-file-user-add-^root resource-file-mode-add-^0600 
+6924dea7bda1c68c06da9aadbefc6bd3f8d8dc7d resource-service-require-delete-require^ ifstatement-if-test-modify-mysql::server::manage_config_file^mysql::server::package_manage type--relation-modify-ASTRelationship^ASTResourceOverride 
+7ea4a748c2819552fe691e9d8f5c98911df83f4b ifstatement-if-test-modify-mysql::server::override_optionsand^mysql::server::override_optionsandmysql::server::override_optionsand 
+ac6ae7140e60722badc494c2109d20cd2a73a5fb resource-service-require-modify-Packagemysql::server::package_name^Packagemysql-server 
+29788fb4c492865b5246daef6cbefe99c4aa067d resource-service-require-modify-Packagemysql::server::service_name^Packagemysql::server::package_name 
+4bab65edcb98f82f87a4414840fe90ab81b6cea3 resource-service-require-modify-Packagemysql-server^Packagemysql::server::service_name 
+511688311102ed0a681aab0bc06850fdaf76619b resource-file-group-modify-::mysql::server::root_group^::mysql::server::mysql_group 
+ce43899af36a6d76cbb8be24d3f68ae93f954eeb type-vardef-ifstatement-modify-ASTIfStatement^ASTVarDef type-ifstatement-resource-modify-ASTResource^ASTIfStatement resource-file-title-modify-mysql::params::log_error^ 
+a8fd4d375ba711625931ea0f08e6e2ec5a55ca51 resource-service-require-add-^Filemysql-config-filePackagemysql-server 
+ec6b97ea5db1aa516b3f39d3655491fe9a1f4315 resource-file-ensure-add-^present 
+c47d1fb5869734b8310fc1fed0bcec7e9e7b5b75 resource-file-type-modify-service^file 
+e4d5671e7f52472caf1bfd68561f57a94c8055c0 ifstatement-if-test-modify-mysql::server::enabled^mysql::server::real_service_enabled ifstatement-if-test-modify-mysql::server::manage_service^mysql::server::real_service_manage resource-service-enable-modify-mysql::server::enabled^mysql::server::real_service_enabled 
+995e1983f23e4e437d61371ff6b51e12c8ba6283 hostclass-type-argument-add-^$postgresql::params::validcon_script_path resource-file-title-modify-/usr/local/bin/validate_postgresql_connection.sh^validcon_script_path 
+8dbf982b627e0df16bc2ecc2635b5d86d0bf0f55 hostclass-type-argument-add-^undef 
+81b4778b9376fa0c7a1337e7eaed512f351cc492 hostclass-type-argument-add-^undef hostclass-type-argument-add-^undef hostclass-type-argument-delete-validcon_script_path^ 
+995e1983f23e4e437d61371ff6b51e12c8ba6283 hostclass-type-argument-add-^undef 
+83b4ac166132df3703155c79cbcdda0c3ea69180 hostclass-type-argument-add-^undef 
+ef1681f5e50ae7976484dd1daf6a18a92bcb9191 selector-value-::osfamily-add-^9.3 
+46567450fafe1376d42b933c43e7f6973ef38df1 selector-value-::operatingsystemrelease-add-^9.4 
+9bb1c5e491463fe64beff663be156d6724b4e06e selector-value-::operatingsystemrelease-modify-9.3^9.4 selector-value-::operatingsystemrelease-delete-/^(14.10)$/^ 
+36bbd6ed2a9f769ee2a02766920637c43505a9b4 selector-value-::operatingsystemrelease-add-^9.4 
+53048211d02b1e758eb7b9c89aedb132566eaa72 selector-value-::operatingsystemrelease-add-^9.3 
+ba67952288db555409176e2299fa631c2214ca23 type-resource-ifstatement-modify-ASTIfStatement^ASTResource 
+48e1eb6002c2897392095d9aa6d2585d44103402 hostclass-type-argument-delete-manage_firewall^ hostclass-type-argument-delete-firewall_supported^ 
+30973ff76677504bba02ed79ddf466b2a2b0c6f4 hostclass-type-argument-add-^undef hostclass-type-argument-add-^undef vardef-var-name-modify-globals_version^default_version type-vardef-ifstatement-modify-ASTIfStatement^ASTVarDef 
+532047919a65a12999cf33b5360532044e6de0cb hostclass-type-argument-delete-manage_firewall^ hostclass-type-argument-delete-firewall_supported^ 
+048d9c93c554253b0c5aa90618864d6c51dd5bd1 selector-value-globals_version-add-^1.5 
+e2b0bdd26f0086c4f26720533f37fec87b066806 hostclass-type-argument-add-^undef hostclass-type-argument-add-^undef 
+58fe218e91947fb9a0eea44fcdb0f4cccc6c78c3 hostclass-type-argument-delete-ensure^ selector-value-::osfamily-delete-Suse^ resource-class-ensure-delete-ensure^ 
+9301e8223252c8d7005f75630d5daa7926e1473d selector-value-globals_version-add-^1.5 
+53ce9110d7ef2ba04781a9855e489a17f34abed8 selector-value-::operatingsystemrelease-add-^9.3 
+246725cfb98b2988514ce7a4a71f4f1f12255a2d selector-value-globals_version-modify-1.5^1.3.6 
+906794d3ce7ece0934046371259401adaa7d1c5a type-not--modify-ASTBooleanOperator^ASTNot 
+ff59d421f9b9ac773f5daee430c8dde9b632d7ff type-ifstatement-resource-modify-ASTResource^ASTIfStatement 
+375308a12db763433dd7db42d066fb37a8f34ef2 selector-value-::operatingsystemrelease-delete-/^7\./^ selector-value-::operatingsystemrelease-add-^9.3 
+74039db1a168d68137550548c37c90a24aaa5b4a selector-value-globals_version-add-^1.5 
+a29d038287559444b6a80eab22b05b2d55901a12 hostclass-type-argument-add-^undef 
+0b7bb333d80d600bcf72bed9c9ffb9f304b1966b hostclass-type-argument-add-^undef hostclass-type-argument-delete-perl_package_name^ 
+9e60640bd9d4753965042f7a9b914819b3e6ce07 hostclass-type-argument-add-^undef 
+2b81d5cb634367176d749540706779bcf72d5f89 hostclass-type-argument-add-^undef selector-value-::osfamily-delete-FreeBSD^ 
+3476828518de2dd86fb380ad9d6e7d95f6c70cfc hostclass-type-argument-add-^undef 
+c1b67d3c0fa1595ba72ea8e5f84766fd5fbc8c08 hostclass-type-argument-delete-default_database^ selector-value-::operatingsystemrelease-add-^9.3 selector-value-::operatingsystemrelease-add-^9.1 selector-value-::operatingsystemrelease-delete-/^(11.10|12.04|12.10|13.04)$/^ 
+cdf5b077feebde145a68e21598675cfd45b07f31 hostclass-type-argument-add-^undef selector-value-::operatingsystemrelease-add-^9.1 selector-value-::operatingsystemrelease-delete-/^(11.10|12.04|12.10|13.04|13.10)$/^ 
+9d1543bd445303c1c2b9d25188f28cfd2883796c selector-value-::operatingsystemrelease-add-^9.1 selector-value-::operatingsystemrelease-delete-/^(11.10|12.04|12.10|13.04)$/^ 
+ff35c0e115adcca4e29c600262983cbd0bc8fc3b selector-value-::operatingsystemrelease-add-^9.1 
+6f614b0b3735e1b2f9e701677f3fc6f85e852184 hostclass-type-argument-add-^undef selector-value-::operatingsystemrelease-delete-/^(17)$/^ selector-value-::operatingsystem-add-^9.2 
+5e142cbebaaebd3ec36498e15461c8dc05fb4f86 selector-value-::operatingsystemrelease-add-^9.1 selector-value-::operatingsystem-delete-Amazon^ 
+2718f14017cdf4104f32f9bf30e83eb52ca27359 selector-value-::operatingsystem-add-^9.2 
+809003d0f9aaa451acb76151a0351f61fe3202e4 hostclass-type-argument-add-^undef 
+2876dacb94296a2049303a1047722d278761a636 resource-class-ensure-add-^ensure 
+c8d3ecde144454190de593483927df124edb2912 hostclass-type-argument-add-^undef 
+a0a2a00a49bbc183466635b87b08f0fd6fd07492 vardef-var-name-modify-postgres_default_version^default_version function-pick-param-modify-versionpostgres_default_versionunknown^versiondefault_versionunknown vardef-var-name-modify-postgres_default_version^default_version function-pick-param-modify-versionpostgres_default_versionunknown^versiondefault_versionunknown function-pick-param-modify-versionpostgres_default_versionunknown^versiondefault_versionunknown 
+3504405cf0b0be280d12434b83df648b7aab815b type-vardef-ifstatement-modify-ASTIfStatement^ASTVarDef 
+6cb9071bfd8c9aa43a9befca2e576d5aeb787c57 casestatement-option-::osfamily-add-^RedHatLinux casestatement-option-RedHat-delete-::osfamily^ 
+90ed7aaf6d42282001264f7f70ec051fd6c439c5 type-ifstatement-casestatement-modify-ASTCaseStatement^ASTIfStatement 
+61f077bb2098f3aa7553a808bdc6128dd6b37489 casestatement-option-Ubuntu-delete-::operatingsystem^ 
+15071237e1ef838787c525f482f8db6a2599678d hostclass-type-inherit-delete-postgresql::params^ 
+1eb45d07f163ab3e3fd117d9de4bc4351b228853 hostclass-type-argument-add-^undef 
+58fe218e91947fb9a0eea44fcdb0f4cccc6c78c3 hostclass-type-argument-delete-ensure^ 
+c8d3ecde144454190de593483927df124edb2912 hostclass-type-argument-modify-present^$postgresql::params::ensure 
+0d196cf92d21e0f00adcd388f17b209356995bb6 hostclass-type-argument-add-^$postgresql::params::module_workdir 
+b2cb2dfff05d4dfcf6cf693288325fa8268b3148 hostclass-type-argument-add-^$postgresql::params::log_line_prefix 
+740c0b3b4063c8d0585f55b0d060837533630860 hostclass-type-argument-add-^$postgresql::globals::default_connect_settings 
+ea9203dd1acf4bcb55b5ef215dd3a8d18606471a hostclass-type-argument-add-^$postgresql::params::service_restart_on_change 
+f9c0d91680123bbeeb8093d26dc9aff92dbcad6d hostclass-type-argument-add-^$postgresql::params::plpython_package_name 
+81b4778b9376fa0c7a1337e7eaed512f351cc492 hostclass-type-argument-add-^$postgresql::params::recovery_conf_path hostclass-type-argument-add-^$postgresql::params::manage_recovery_conf 
+83b4ac166132df3703155c79cbcdda0c3ea69180 hostclass-type-argument-add-^$postgresql::params::logdir 
+ef1681f5e50ae7976484dd1daf6a18a92bcb9191 hostclass-type-argument-add-^$postgresql::params::service_reload 
+789543fc45b08b940b1ba4f855fd8feebb2a2d39 hostclass-type-argument-add-^$postgresql::params::service_manage 
+532047919a65a12999cf33b5360532044e6de0cb hostclass-type-argument-delete-manage_firewall^ hostclass-type-argument-delete-firewall_supported^ relation-order-->-delete-base->base->base->base->base->base->base->base^base->base->base->base->base->base->base 
+91fec924888e47ec6f67e712f3f6a8977ba4f8c8 hostclass-type-argument-modify-$postgresql::params::version^undef 
+e2b0bdd26f0086c4f26720533f37fec87b066806 hostclass-type-argument-add-^$postgresql::params::pg_ident_conf_path hostclass-type-argument-add-^$postgresql::params::manage_pg_ident_conf 
+8db4a0cf67d47af26741938fd4cad0cec45826f9 ifstatement-if-test-modify-version#=postgresql::params::version^version#=undef 
+5e334093427256ed4448253f2a7e50cc2da027a6 hostclass-type-argument-add-^$postgresql::params::service_ensure 
+86f295024898f9f7c260eee5b654cdbcc4748a80 hostclass-type-argument-add-^$postgresql::params::port 
+8d7bf05796ec529f565b95226b45e4fe45fd75e6 hostclass-type-argument-add-^$postgresql::params::client_package_name 
+2b81d5cb634367176d749540706779bcf72d5f89 hostclass-type-argument-add-^$postgresql::params::xlogdir hostclass-type-argument-delete-client_package_name^ 
+02c0184f5831e707323dac9c1165e1e8ede56032 hostclass-type-argument-add-^$postgresql::params::client_package_name 
+cdf5b077feebde145a68e21598675cfd45b07f31 hostclass-type-argument-modify-undef^$postgresql::params::default_database 
+6afb4a0367c699d3e1a83879b87d2e7ac4d26965 hostclass-type-argument-add-^undef 
+ab5c177b7665bbdce3ead22adc47e65fa4dbf819 resource-class-require-add-^Class${pg}::install 
+6f614b0b3735e1b2f9e701677f3fc6f85e852184 hostclass-type-argument-add-^$postgresql::params::manage_pg_hba_conf 
+809003d0f9aaa451acb76151a0351f61fe3202e4 hostclass-type-argument-add-^$postgresql::params::version hostclass-type-argument-add-^$postgresql::params::plperl_package_name 
+c8d3ecde144454190de593483927df124edb2912 hostclass-type-argument-modify-true^$postgresql::params::ensure 
+7d84b6ac0e75ea228088b72ce6da68a45fdc2e6b hostclass-type-argument-add-^$postgresql::params::datadir 
+b9db279c04e0f3437dfa70f53331857eef4a1344 resource-exec-group-delete-group^ resource-exec-user-delete-user^ 
+663c77930932a3271297471ade5b6a2f58ff7931 resource-exec-command-modify-service${postgresql::params::service_name}reload^service${service_name_real}reload resource-exec-user-add-^postgresql::params::user resource-exec-group-add-^postgresql::params::group resource-exec-onlyif-add-^service_status_real 
+d44de361b6da9cc5ba5248de5c16955bb16c23a3 resource-exec-path-add-^/usr/bin:/usr/sbin:/bin:/sbin resource-exec-command-modify-/usr/bin/service${postgresql::params::service_name}reload^service${postgresql::params::service_name}reload 
+82c5863431cfb76c88cb1d2fa50ec2a13148a012 hostclass-type-argument-add-^$postgresql::params::service_status resource-service-status-add-^service_status 
+0d196cf92d21e0f00adcd388f17b209356995bb6 resource-exec-cwd-modify-/tmp^module_workdir 
+fc580e1f93887e08cc99d859bc02dd21c98e6f6f function-join-param-modify-cmd_initcmd_hostcmd_usercmd_portcmd_dbname^cmd_initcmd_hostcmd_usercmd_portcmd_dbname 
+9a29aea976fdb11aca29fe1746fcd7557052a02b function-include-name-modify-require^include resource-exec-require-modify-Packagepostgresql-client^Classpostgresql::client 
+3896baeabb7ed2a1be19e705aa405560f5ea06f0 resource-exec-path-modify-/bin^/bin:/usr/bin:/usr/local/bin 
+a8e66e687275328bd250857fd916859b06797a5f function-require-param-modify-postgresql^postgresql::client 
+9aebc4fbfe8ba38a244b2e14b26dd0f3cfa2586d hostclass-type-argument-modify-true^$postgresql::params::link_pg_config 
+8ad12ece492b96167eb4696d03a54503a70af460 ifstatement-if-test-modify-postgresql::params::bindir#=/usr/binandpostgresql::params::bindir#=/usr/loca/bin^postgresql::params::bindir#=/usr/binandpostgresql::params::bindir#=/usr/local/bin 
+25b11a2e6b33f62b09095ecfc3280ac8da7ab8e2 resource-package-tag-add-^postgresql 
+0b7bb333d80d600bcf72bed9c9ffb9f304b1966b type-function-ifstatement-modify-ASTIfStatement^ASTFunction 
+1eb45d07f163ab3e3fd117d9de4bc4351b228853 resource-yumrepo-proxy-add-^postgresql::repo::proxy 
+32ebbb5e34b9dbaf46f75b6b6ee9efb6ac6db7c6 function-split-param-modify-version[.]^postgresql::repo::version[.] resource-yumrepo-descr-modify-PostgreSQL${version}$releasever-$basearch^PostgreSQL${postgresql::repo::version}$releasever-$basearch resource-yumrepo-baseurl-modify-http://yum.postgresql.org/${version}/${label1}/${label2}-$releasever-$basearch^http://yum.postgresql.org/${postgresql::repo::version}/${label1}/${label2}-$releasever-$basearch 
+b2cb2dfff05d4dfcf6cf693288325fa8268b3148 type-ifstatement-resource-modify-ASTResource^ASTIfStatement ifstatement-if-test-modify-logdir^log_line_prefix 
+f929cadd9cd83718894eaa7f9817c807f6f83848 resource-file-path-modify-/etc/systemd/system/${postgresql::params::service_name}.service^/etc/systemd/system/${service_name}.service 
+9dc891d06da260853c20812959522fa293180f80 resource-file-path-modify-/etc/systemd/system/postgresql.service^/etc/systemd/system/${postgresql::params::service_name}.service 
+83b4ac166132df3703155c79cbcdda0c3ea69180 ifstatement-if-test-modify-::osfamily==RedHatand::operatingsystemrelease#~/^7/and::operatingsystem#=Fedora^logdir resource-postgresql::server::config_entry-type-modify-file^postgresql::server::config_entry 
+0c4f2a96470cf0ce211757422b2db9f96e9ada07 ifstatement-if-test-modify-::osfamily==RedHatand::operatingsystemrelease#~/^7/^::osfamily==RedHatand::operatingsystemrelease#~/^7/and::operatingsystem#=Fedora 
+4e002d7fd93e7bbbddcc1c81abf17dfee5f23ff4 ifstatement-if-test-modify-::osfamily==RedHatand::operatingsystemrelease#=7.0^::osfamily==RedHatand::operatingsystemrelease#~/^7/ 
+d010bc8c7fbf92c02d441d464064313746dc938c ifstatement-if-test-modify-::osfamily==RedHat^::osfamily==RedHatand::operatingsystemrelease#=7.0 
+d49939014c08f79f24ad807f60affc063e6fdb4c resource-concat-owner-modify-0^user 
+acabbbf53066a9b760def6136d8f2d7b8ac65738 type-resource-function-modify-ASTFunction^ASTResource type-ifstatement-resource-modify-ASTResource^ASTIfStatement 
+63ee3a55f18f6c8e2da2b7d35ecba38bebf0b2e7 casestatement-option-name-add-^/data_directory|hba_file|ident_file|include|listen_addresses|port|max_connections|superuser_reserved_connections|unix_socket_directory|unix_socket_group|unix_socket_permissions|bonjour|bonjour_name|ssl|ssl_ciphers|shared_buffers|max_prepared_transactions|max_files_per_process|shared_preload_libraries|wal_level|wal_buffers|archive_mode|max_wal_senders|hot_standby|logging_collector|silent_mode|track_activity_query_size|autovacuum_max_workers|autovacuum_freeze_max_age|max_locks_per_transaction|max_pred_locks_per_transaction|restart_after_crash|lc_messages|lc_monetary|lc_numeric|lc_time|log_min_duration_statement/ casestatement-option-/data_directory|hba_file|ident_file|include|listen_addresses|port|max_connections|superuser_reserved_connections|unix_socket_directory|unix_socket_group|unix_socket_permissions|bonjour|bonjour_name|ssl|ssl_ciphers|shared_buffers|max_prepared_transactions|max_files_per_process|shared_preload_libraries|wal_level|wal_buffers|archive_mode|max_wal_senders|hot_standby|logging_collector|silent_mode|track_activity_query_size|autovacuum_max_workers|autovacuum_freeze_max_age|max_locks_per_transaction|max_pred_locks_per_transaction|restart_after_crash|lc_messages|lc_monetary|lc_numeric|lc_time/-delete-name^ 
+ea9203dd1acf4bcb55b5ef215dd3a8d18606471a type-ifstatement--modify-ASTResourceDefaults^ASTIfStatement 
+e2f50152070a5dae674d55f356bcb6822c011184 type--vardef-modify-ASTVarDef^ASTResourceDefaults 
+0c4f2a96470cf0ce211757422b2db9f96e9ada07 ifstatement-if-test-modify-::operatingsystemrelease=~/^7/^::operatingsystemrelease=~/^7/or::operatingsystem==Fedora 
+4334dc7bd96f9c652b74ff65694dc9c17fd3f2a5 type-relation-resource-modify-ASTResource^ASTRelationship 
+4e002d7fd93e7bbbddcc1c81abf17dfee5f23ff4 ifstatement-if-test-modify-::operatingsystemrelease==7.0^::operatingsystemrelease=~/^7/ ifstatement-if-test-modify-::operatingsystemrelease==7.0^::operatingsystemrelease=~/^7/ 
+b706edff9b78bc0a0e765a82de30511b75b1265e casestatement-option-name-add-^/data_directory|hba_file|ident_file|include|listen_addresses|port|max_connections|superuser_reserved_connections|unix_socket_directory|unix_socket_group|unix_socket_permissions|bonjour|bonjour_name|ssl|ssl_ciphers|shared_buffers|max_prepared_transactions|max_files_per_process|shared_preload_libraries|wal_level|wal_buffers|archive_mode|max_wal_senders|hot_standby|logging_collector|silent_mode|track_activity_query_size|autovacuum_max_workers|autovacuum_freeze_max_age|max_locks_per_transaction|max_pred_locks_per_transaction|restart_after_crash|lc_messages|lc_monetary|lc_numeric|lc_time/ casestatement-option-/data_directory|hba_file|ident_file|include|listen_addresses|port|max_connections|superuser_reserved_connections|unix_socket_directory|unix_socket_group|unix_socket_permissions|bonjour|bonjour_name|ssl|ssl_ciphers|shared_buffers|max_prepared_transactions|max_files_per_process|shared_preload_libraries|wal_level|wal_buffers|archive_mode|max_wal_senders|hot_standby|logging_collector|silent_mode|track_activity_query_size|autovacuum_max_workers|autovacuum_freeze_max_age|max_locks_per_transaction|max_pred_locks_per_transaction|restart_after_crash/-delete-name^ 
+fad4c164abb2af902dc8262242a11effa6c78303 selector-value-encoding-modify-ENCODING=${encoding}^ENCODING='${encoding}' 
+435d63297abad00910adb3acaa8660d15a01e563 hostclass-type-argument-add-^undef 
+f0924df7c803e6c667850fe22feaff23b0200109 hostclass-type-argument-add-^template0 
+a246e586be016c99d521a8796c24f8fe7ca5c4e2 resource-postgresql::server::role-before-add-^Postgresql::Server::Databasedbname 
+435d63297abad00910adb3acaa8660d15a01e563 hostclass-type-argument-add-^undef resource-postgresql::server::database-comment-add-^comment resource-postgresql::server::database-comment-add-^comment 
+6e55b9bbb3feb7283e5d3dfab63d0fed548db29c type-relation-resource-modify-ASTResource^ASTRelationship 
+f0924df7c803e6c667850fe22feaff23b0200109 hostclass-type-argument-add-^template0 resource-postgresql::server::database-template-add-^template 
+b784676c2ed8c3392f7ecbd47f6d4cc789b3f91a hostclass-type-argument-add-^undef resource-postgresql::server::database-owner-add-^owner 
+9278954cfeeac8361327fb325f4c35973489cbcf resource-postgresql_psql-title-modify-grant_cmd^grant:${name} resource-postgresql_psql-command-add-^grant_cmd resource-postgresql_psql-title-modify-grant_cmd^grant:${name} resource-postgresql_psql-command-add-^grant_cmd relation-order-->-modify-Postgresql::Server::Rolerole->Postgresql_psqlgrant_cmd^Postgresql::Server::Rolerole->Postgresql_psqlgrant:${name} relation-order-->-modify-Postgresql::Server::Databasedb->Postgresql_psqlgrant_cmd^Postgresql::Server::Databasedb->Postgresql_psqlgrant:${name} 
+86f295024898f9f7c260eee5b654cdbcc4748a80 hostclass-type-argument-add-^$postgresql::server::port resource-postgresql_psql-port-add-^port 
+688b0aa3fc12491d2edc9778e908a210a7ce872b hostclass-type-argument-modify-$postgresql::server::user^$postgresql::server::default_database 
+4cd64e80ac7473ea1fb47cdfc68ef93a79666084 function-validate_string-param-modify-unless_privilegeSELECTINSERTUPDATEREFERENCESALLALLPRIVILEGES^unless_privilegeSELECTINSERTUPDATEDELETETRUNCATEREFERENCESTRIGGERALLALLPRIVILEGES 
+05eaaa1670527fc2f001f773620259dcda7a49ff resource-exec-require-add-^Filedatadir resource-exec-after-delete-after^ 
+99a1e03154e3c2bb873fbd47ff32fd5e23c259cb resource-exec-after-add-^Filedatadir resource-exec-before-delete-before^ 
+480fc64f6bc43ed428a17d73287f170d5bd3eab2 resource-file-mode-modify-700^0700 
+27c5cc0304dc2b7b0bda351b92315f445bf21044 selector-value-package_ensure-add-^purged 
+0d196cf92d21e0f00adcd388f17b209356995bb6 resource-exec-cwd-modify-/tmp^module_workdir 
+d71e3f754d92f3e3cc6bbe6db2a5ba131cd366fb resource-exec-environment-modify-PGPASSWORD=${postgres_password}NEWPASSWD_ESCAPED=${escaped}^PGPASSWORD=${postgres_password}PGPORT=${port}NEWPASSWD_ESCAPED=${escaped} 
+863a4b80dee95828e8829593706ddb4ae06dfbd5 resource-exec-environment-modify-PGPASSWORD='${postgres_password}'NEWPASSWD_ESCAPED='${escaped}'^PGPASSWORD=${postgres_password}NEWPASSWD_ESCAPED=${escaped} 
+aee6dba6f85583560ee3fb817138f3b12f53b81c vardef-var-name-modify-psql_path^port resource-exec-unless-modify-${env}${psql_path}-hlocalhost-c'select1'>/dev/null^${env}${psql_path}-hlocalhost-p${port}-c'select1'>/dev/null 
+828c3b99d24b0fa695668e48eb3559d8b946ca1c vardef-var-name-modify-group^psql_path resource-exec-command-modify-psql-c'ALTERROLE"${user}"PASSWORD${escaped}'^${psql_path}-c'ALTERROLE"${user}"PASSWORD${escaped}' resource-exec-unless-modify-${env}psql-hlocalhost-c'select1'>/dev/null^${env}${psql_path}-hlocalhost-c'select1'>/dev/null vardef-var-name-modify-group^psql_path resource-exec-command-modify-psql-c'ALTERROLE"${user}"PASSWORD${escaped}'^${psql_path}-c'ALTERROLE"${user}"PASSWORD${escaped}' resource-exec-unless-modify-${env}psql-hlocalhost-c'select1'>/dev/null^${env}${psql_path}-hlocalhost-c'select1'>/dev/null 
+91fec924888e47ec6f67e712f3f6a8977ba4f8c8 selector-test-test-modify-postgresql::server::version^postgresql::server::_version 
+0e1fa6f8b21039e55c78a1994ab2994c40eaa2c5 ifstatement-if-test-modify-postgresql::server::manage_pga_conf==false^postgresql::server::manage_pg_hba_conf==false function-fail-param-modify-postgresql::server::manage_pga_confhasbeendisabled,sothisresourceisnowunusedandredundant,eitherenablethatoptionorremovethisresourcefromyourmanifests^postgresql::server::manage_pg_hba_confhasbeendisabled,sothisresourceisnowunusedandredundant,eitherenablethatoptionorremovethisresourcefromyourmanifests 
+673838c3d8a231a46872991e6781aa200649525f resource-concat::fragment-owner-delete-owner^ resource-concat::fragment-mode-delete-mode^ 
+017d13418863a045fa71770a5bf052b5d9362984 function-join-param-modify-^(joinallowed_auth_methods|)$^^(joinallowed_auth_methods|)$ function-validate_re-param-modify-auth_methodauth_method_regexjoinTheauth_methodyouspecified[${auth_method}]mustbeoneof:joinallowed_auth_methods,^auth_methodauth_method_regexjoinTheauth_methodyouspecified[${auth_method}]mustbeoneof:joinallowed_auth_methods, 
+99cd56c2e3d032455dfc409550373295ac88da2e resource-concat::fragment-content-modify-templatepostgresql/recovery.conf^templatepostgresql/recovery.conf.erb 
+5488821ce64728156ffb2024ed6fc6f9b0af953c resource-exec-require-add-^Classpostgresql::server::service 
+86f295024898f9f7c260eee5b654cdbcc4748a80 hostclass-type-argument-add-^$postgresql::server::port 
+ad083d0e4da7edd2203b760388c8f62e73b4fc00 hostclass-type-argument-add-^true 
+688b0aa3fc12491d2edc9778e908a210a7ce872b hostclass-type-argument-modify-$postgresql::server::user^$postgresql::server::default_database 
+6bf896fa3475a00d279277d2f3d23e8c209444cb selector-value-ensure-modify-true^running selector-value-ensure-modify-false^stopped 
+86f295024898f9f7c260eee5b654cdbcc4748a80 resource-postgresql::validate_db_connection-database_port-add-^port 
+bac4b87a8dabc742dc99070982d5641a5cf2489a type-resource-vardef-modify-ASTVarDef^ASTResource 
+6afb4a0367c699d3e1a83879b87d2e7ac4d26965 resource-postgresql::validate_db_connection-database_name-add-^default_database 
+ef45251a316509413c938c50c33d1b6f58d5bfe7 resource-postgresql::validate_db_connection-tries-modify-30^60 
+50ae9efbadc9e9b01616f8d758b85cbba2384e39 resource-file-require-add-^Classpostgresql::server 
+86f295024898f9f7c260eee5b654cdbcc4748a80 hostclass-type-argument-add-^$postgresql::server::port resource-postgresql::server::grant-port-add-^port 
